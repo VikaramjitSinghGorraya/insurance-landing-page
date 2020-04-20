@@ -58,7 +58,7 @@ const TextContainer = styled.div`
     text-align:center;   
     place-items:center;
     h1{
-        font-size: 1.5em;
+        font-size: 3em;
         line-height: 1;
         position: relative;
         margin: 0;
