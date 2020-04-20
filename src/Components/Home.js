@@ -58,7 +58,7 @@ const TextContainer = styled.div`
     text-align:center;   
     place-items:center;
     h1{
-        font-size: 2.5em;
+        font-size: 3.5em;
         line-height: 1;
         position: relative;
         margin: 0;
@@ -72,6 +72,16 @@ const TextContainer = styled.div`
        text-align:left;
        place-items:start;
        padding: 35vh 5vw;
+
+       h1{
+        font-size: 1.5em;
+        line-height: 1;
+        position: relative;
+        margin: 0;
+        }
+        p{
+            font-size:1.5rem;
+        }
 
        &::before{
         content:'';
