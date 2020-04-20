@@ -6,10 +6,11 @@ export class Navigation extends Component {
 
     componentDidMount(){
 
-        const ham = document.getElementById("hamburger");
+       const ham = document.getElementById("hamburger");
         const list = document.getElementById("ul");
         ham.addEventListener("click",()=>{
             list.classList.toggle("active");
+            document.body.classList.toggle("bodyScroll");
         })
     }
     render() {
