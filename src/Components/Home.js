@@ -58,10 +58,13 @@ const TextContainer = styled.div`
     text-align:center;   
     place-items:center;
     h1{
-        font-size: 3.5em;
+        font-size: 1.5em;
         line-height: 1;
         position: relative;
         margin: 0;
+    }
+    p{
+        font-size:smaller;
     }
     
    @media (min-width:960px){
@@ -74,13 +77,13 @@ const TextContainer = styled.div`
        padding: 35vh 5vw;
 
        h1{
-        font-size: 1.5em;
+        font-size: 3.5em;
         line-height: 1;
         position: relative;
         margin: 0;
         }
         p{
-            font-size:1.5rem;
+            font-size:larger;
         }
 
        &::before{
