@@ -91,23 +91,7 @@ const OptionsList = styled.ul`
         place-items:Center;
        width:95%;
     }
-(max-device-width: 480px) (orientation: landscape) {
-        &.active
-        {
-            position:absolute;
-            width:100%;
-            height:92vh;
-            display: grid;
-            grid-template-columns:100%;
-            place-items:center;
-            margin:1vh 0;
-            padding:0;
-            top:8vh;
-            bottom:0;
-           z-index:99;
-           background-color:black;
-           color:white;
-        }
+
     `;
 
 const Options = styled.li`
