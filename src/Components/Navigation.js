@@ -62,6 +62,11 @@ const ImageContainer = styled.div`
             display:none;
         }
     }
+    @media (max-width:740px) and (orientation:landscape){
+        width:100%;
+        grid-template-columns:90% 5%;
+        justify-content:space-even;
+    }
     `; 
 const OptionsList = styled.ul`
    
