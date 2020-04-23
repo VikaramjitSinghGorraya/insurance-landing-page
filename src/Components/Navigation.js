@@ -92,7 +92,27 @@ const OptionsList = styled.ul`
        width:95%;
     }
 
+    @media (max-width: 640px) and (orientation: landscape) {
+        &.active
+        {
+            opacity:0.8;
+            position:absolute;
+            width:100%;
+            height:92vh;
+            display: grid;
+            grid-template-columns:100%;
+            place-items:center;
+            margin:0;
+            padding: 0;
+            top:12vh;
+            bottom:0;
+           z-index:99;
+           background-color:black;
+           color:white;
+        }
+    }
     `;
+
 
 const Options = styled.li`
     text-align:center;
