@@ -6,7 +6,7 @@ export class Navigation extends Component {
 
     componentDidMount(){
 
-       const ham = document.getElementById("hamburger");
+        const ham = document.getElementById("hamburger");
         const list = document.getElementById("ul");
         ham.addEventListener("click",()=>{
             list.classList.toggle("active");
@@ -43,7 +43,7 @@ const OuterContainer = styled.div`
     background-color:white;
     padding:2vh 0;
     position:fixed;
-    width:100vw;
+    width:100%;
     z-index:100;
     @media (min-width:960px){
         grid-template-columns:50% 50%;
@@ -112,7 +112,6 @@ const OptionsList = styled.ul`
         }
     }
     `;
-
 
 const Options = styled.li`
     text-align:center;

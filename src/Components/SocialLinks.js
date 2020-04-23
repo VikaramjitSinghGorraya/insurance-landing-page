@@ -75,7 +75,7 @@ const OuterContainer = styled.div`
         color: #d8d8d8;
     font-size: 1.2em;
     }
-@media (min-width:960px){
+@media (min-width:960px) {
     padding:15vh 5vw;
    grid-gap:25px;
    img:nth-of-type(0){
@@ -105,11 +105,20 @@ const ImagesContainer = styled.div`
             top:6vh;
         }
     }
+    @media (max-width: 640px) and (orientation: landscape) {
+        grid-template-columns: 50% 50%;
+        width:100%;
+    }
 `;
 const LogoImageContainer = styled.div`
     text-align:center;
     @media (min-width:960px){
         width:100%;
+        text-align:left;
+        margin:0 auto;
+    }
+    @media (max-width: 640px) and (orientation: landscape) {
+        width:90%;
         text-align:left;
         margin:0 auto;
     }
@@ -125,6 +134,14 @@ width:100%;
 @media (min-width:960px){
     width:90%;
     grid-template-columns:7% 7% 7% 7%;
+    text-align:right;
+    justify-content:end;
+    padding-top:0;
+    margin:0 auto;
+}
+@media (max-width: 640px) and (orientation: landscape) {
+   width:90%;
+    grid-template-columns:10% 10% 10% 10%;
     text-align:right;
     justify-content:end;
     padding-top:0;
@@ -159,4 +176,5 @@ li{
         cursor:pointer;
     }
 }
+
 `;

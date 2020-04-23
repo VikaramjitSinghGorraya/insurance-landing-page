@@ -97,6 +97,12 @@ const TextContainer = styled.div`
         align-self:center;
        }
    }
+   @media (max-width:640px) and (orientation:landscape){
+   place-items:center;
+    height:90vh;
+    padding:0 20vw;;
+    margin:0;
+   }
 `;
 const Button = styled.button`
 background-color: transparent;

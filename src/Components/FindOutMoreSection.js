@@ -47,12 +47,15 @@ const OuterContainer = styled.div`
             text-align:left;
             font-size: 3em;
         }
-    }`;
+    }
+    @media (max-width:640px )and (orientation:landscape){
+        height:100vh;
+    }
+    `;
 const HeadingContainer = styled.div`
 @media (min-width:960px){
     padding:0 5vw;
     justify-content:start;
-    
 }
 `;
 const ButtonContainer = styled.div``;
