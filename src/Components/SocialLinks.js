@@ -105,7 +105,7 @@ const ImagesContainer = styled.div`
             top:6vh;
         }
     }
-    @media (max-width: 640px) and (orientation: landscape) {
+    @media (max-width: 740px) and (orientation: landscape) {
         grid-template-columns: 50% 50%;
         width:100%;
     }
@@ -117,7 +117,7 @@ const LogoImageContainer = styled.div`
         text-align:left;
         margin:0 auto;
     }
-    @media (max-width: 640px) and (orientation: landscape) {
+    @media (max-width: 740px) and (orientation: landscape) {
         width:90%;
         text-align:left;
         margin:0 auto;
@@ -139,7 +139,7 @@ width:100%;
     padding-top:0;
     margin:0 auto;
 }
-@media (max-width: 640px) and (orientation: landscape) {
+@media (max-width: 740px) and (orientation: landscape) {
    width:90%;
     grid-template-columns:10% 10% 10% 10%;
     text-align:right;

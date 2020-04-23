@@ -92,7 +92,7 @@ const OptionsList = styled.ul`
        width:95%;
     }
 
-    @media (max-width: 640px) and (orientation: landscape) {
+    @media (max-width: 740px) and (orientation: landscape) {
         &.active
         {
             opacity:0.8;

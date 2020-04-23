@@ -85,7 +85,7 @@ const  ContentContainer = styled.div`
     grid-template-columns: 30% 30% 30%;
     justify-content:center;
 }
-@media (max-width:640px and orientation:landscape){
+@media (max-width:740px and orientation:landscape){
     padding:0 5vw;
 }
 `;

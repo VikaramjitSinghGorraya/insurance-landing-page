@@ -48,7 +48,7 @@ const OuterContainer = styled.div`
             font-size: 3em;
         }
     }
-    @media (max-width:640px )and (orientation:landscape){
+    @media (max-width:740px )and (orientation:landscape){
         height:100vh;
     }
     `;

@@ -97,7 +97,7 @@ const TextContainer = styled.div`
         align-self:center;
        }
    }
-   @media (max-width:640px) and (orientation:landscape){
+   @media (max-width:740px) and (orientation:landscape){
    place-items:center;
     height:90vh;
     padding:0 20vw;;
