@@ -109,7 +109,7 @@ const OptionsList = styled.ul`
             place-items:center;
             margin:0;
             padding: 0;
-            top:12vh;
+             top:14vh;
             bottom:0;
            z-index:99;
            background-color:black;
