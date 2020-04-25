@@ -102,7 +102,7 @@ const ImagesContainer = styled.div`
             height:1px;
             background-color: black;
             position:absolute;
-            top:6vh;
+            top:35px;
         }
     }
     @media (max-width: 740px) and (orientation: landscape) {
